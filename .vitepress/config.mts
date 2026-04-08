@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "さめすきーDocs",
   description: "さめすきーのドキュメントです",
+  base: "/smskeydocs/",
   lang: "ja-JP",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
